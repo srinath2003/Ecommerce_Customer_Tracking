@@ -25,3 +25,9 @@ document.getElementById('search').addEventListener('input', function (e) {
         }
     });
 });
+
+
+function viewProductDetails(productId) {
+    console.log("Product ID:", productId); // Debugging
+    window.location.href = `/product/${productId}`;
+}
